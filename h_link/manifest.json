@@ -1,0 +1,25 @@
+{
+    "name": "h_link",
+    "title": "硬链接整理",
+    "author": "zhaopeng",
+    "description": "监控指定下载目录，下载任务完成后自动整理到指定目录",
+    "_comment_start": "x-release-please-start-version",
+    "version": "1.0.0",
+    "_comment_end": "x-release-please-end",
+    "requirements": [],
+    "dependencies": {
+        "appVersion": ">=1.9.25"
+    },
+    "logoUrl": "/plugins/h_link/logo.png",
+    "githubUrl": "",
+    "helpDocUrl": "",
+    "configField": [
+        {
+            "fieldName": "watch_target_folders",
+            "fieldType": "String",
+            "label": "监控路径:目标路径，监控路径和目标路径用英文冒号':'分隔,多组路径可以用英文逗号','分隔",
+            "defaultValue": ""
+        }
+    ]
+}
+
