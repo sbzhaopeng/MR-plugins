@@ -3,7 +3,7 @@ from datetime import datetime
 
 # 连接到SQLite数据库
 # 如果数据库不存在，那么它就会被创建，最终将返回一个数据库对象。
-conn = sqlite3.connect('women_health.db')
+conn = sqlite3.connect('health.db')
 cursor = conn.cursor()
 
 # 创建用户信息表
